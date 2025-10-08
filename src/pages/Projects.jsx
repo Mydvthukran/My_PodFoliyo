@@ -1,6 +1,11 @@
 
-import {Video} from "../assets/videos/video"
+import { useEffect, useRef, useState } from 'react';
+import { Video } from "../assets/videos/video";
+
 export const Projects = () => {
+    const [isVisible, setIsVisible] = useState(false);
+    const sectionRef = useRef(null);
+
     const projects = [
         {
             title: "Automatic Attendance System (SIH 2024)",
@@ -25,23 +30,44 @@ export const Projects = () => {
         },
     ];
 
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setIsVisible(true);
+                }
+            },
+            { threshold: 0.2 }
+        );
+
+        if (sectionRef.current) {
+            observer.observe(sectionRef.current);
+        }
+
+        return () => {
+            if (sectionRef.current) {
+                observer.unobserve(sectionRef.current);
+            }
+        };
+    }, []);
+
     return (
-        <div className="projects-section" id="projects">
-            <Video/>
+        <div className="projects-section" id="projects" ref={sectionRef}>
+            <Video />
             <div className="projects-content">
                 <h1>My Current Projects</h1>
 
                 <div className="project-list">
                     {projects.map((project, index) => (
-                        <div 
-                            key={index} 
-                            className="project-card"
+                        <div
+                            key={index}
+                            className={`project-card ${isVisible ? 'animate' : ''}`}
                             style={{ animationDelay: project.delay }}
                         >
                             <h2>{project.title}</h2>
                             <p className="status">{project.status}</p>
                             <p className="description">{project.description}</p>
-                            
+
                             <div className="tech-tags">
                                 {project.technologies.map((tech, i) => (
                                     <span key={i} className="tag">{tech}</span>
@@ -52,9 +78,9 @@ export const Projects = () => {
                 </div>
 
                 <div className="github-link-container">
-                    <a 
-                        href="https://github.com/Mydvthukran" 
-                        target="_blank" 
+                    <a
+                        href="https://github.com/Mydvthukran"
+                        target="_blank"
                         rel="noopener noreferrer"
                         className="github-button"
                     >
