@@ -1,6 +1,6 @@
 
 import { useEffect, useRef, useState } from 'react';
-import { Video } from "../assets/videos/video";
+
 import GitLogo from '../assets/logos/git.svg';
 import GithubLogo from '../assets/logos/github.png';
 import HtmlLogo from '../assets/logos/html.svg';
@@ -50,7 +50,7 @@ export const Skills = () => {
 
     return (
         <div className="skills-section" id="skills" ref={sectionRef}>
-            <Video />
+            
             <div>
                 <h1>Current skills:-</h1>
             </div>

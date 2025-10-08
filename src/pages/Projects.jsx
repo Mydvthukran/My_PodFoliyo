@@ -1,6 +1,6 @@
 
 import { useEffect, useRef, useState } from 'react';
-import { Video } from "../assets/videos/video";
+
 
 export const Projects = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -53,7 +53,7 @@ export const Projects = () => {
 
     return (
         <div className="projects-section" id="projects" ref={sectionRef}>
-            <Video />
+            
             <div className="projects-content">
                 <h1>My Current Projects</h1>
 

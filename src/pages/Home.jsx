@@ -1,12 +1,11 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
-import { Video } from "../assets/videos/video";
+
 
 export const Home = () => {
     const [isLoaded, setIsLoaded] = useState(false);
 
     useEffect(() => {
-        // Trigger animations after component mounts
         setTimeout(() => {
             setIsLoaded(true);
         }, 100);
@@ -14,7 +13,7 @@ export const Home = () => {
 
     return (
         <div className="hero" id="home">
-            <Video />
+            
             <div className="hero-buttons">
                 <h1 className={isLoaded ? 'animate' : ''}>
                     Hi, I am <span>Manish Yadav</span>

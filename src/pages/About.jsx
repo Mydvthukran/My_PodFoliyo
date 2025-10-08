@@ -1,6 +1,6 @@
  import { useEffect, useRef, useState } from 'react';
 import image from '../assets/logos/my-pic.jpg';
-import { Video } from "../assets/videos/video";
+
 
 export const About = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -29,7 +29,7 @@ export const About = () => {
 
     return (
         <div className="about-container" id="about" ref={sectionRef}>
-            <Video />
+            
             <div className="about-content">
                 <img
                     src={image}

@@ -1,6 +1,6 @@
 
 import { useEffect, useRef, useState } from 'react';
-import { Video } from "../assets/videos/video";
+
 
 export const Contact = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -35,7 +35,7 @@ export const Contact = () => {
 
     return (
         <div className="contact-section" id="contact" ref={sectionRef}>
-            <Video />
+            
             <div className={`contact-content ${isVisible ? 'animate' : ''}`}>
                 <h1>Get In Touch</h1>
 
