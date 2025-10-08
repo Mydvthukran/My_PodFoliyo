@@ -82,7 +82,7 @@ h2 {
     }
 }
 
-/* ============ HEADER ============ */
+
 .header {
     position: fixed;
     top: 0;
@@ -112,7 +112,7 @@ h2 {
     cursor: pointer;
 }
 
-/* Hamburger Menu */
+
 .menu-toggle {
     display: none;
     flex-direction: column;
@@ -141,7 +141,7 @@ h2 {
     transform: rotate(-45deg) translate(8px, -8px);
 }
 
-/* Navigation */
+
 .header2 nav {
     display: flex;
 }
@@ -187,7 +187,7 @@ h2 {
     color: var(--color-primary);
 }
 
-/* Global Content Wrapper */
+
 .content-wrapper {
     padding-top: var(--header-height);
     position: relative;
@@ -204,7 +204,7 @@ h2 {
     object-fit: cover;
 }
 
-/* Section Defaults */
+
 .hero,
 .about-container,
 .skills-section,
@@ -219,7 +219,7 @@ h2 {
     color: var(--color-secondary);
 }
 
-/* ============ HERO ============ */
+
 .hero {
     text-align: center;
     z-index: 1000;
@@ -285,7 +285,7 @@ h2 {
     box-shadow: 0 0 15px var(--color-primary);
 }
 
-/* ============ ABOUT ============ */
+
 .about-container {
     align-items: flex-start;
 }
@@ -367,7 +367,7 @@ h2 {
     color: var(--color-primary);
 }
 
-/* ============ SKILLS ============ */
+
 .skills-section {
     flex-direction: column;
     align-items: center;
@@ -433,7 +433,7 @@ h2 {
     font-weight: 500;
 }
 
-/* ============ PROJECTS ============ */
+
 .projects-section {
     align-items: flex-start;
 }
@@ -535,7 +535,7 @@ h2 {
     transform: translateY(-2px);
 }
 
-/* ============ CONTACT ============ */
+
 .contact-section {
     align-items: center;
     text-align: center;
@@ -613,7 +613,7 @@ h2 {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
 }
 
-/* ============ MEDIA QUERIES ============ */
+
 
 /* Tablet */
 @media (max-width: 1024px) {
@@ -636,7 +636,7 @@ h2 {
     }
 }
 
-/* Mobile - Navigation */
+
 @media (max-width: 768px) {
     html {
         font-size: 90%;
@@ -655,12 +655,12 @@ h2 {
         font-size: 1.8rem;
     }
 
-    /* Show hamburger menu */
+    
     .menu-toggle {
         display: flex;
     }
 
-    /* Mobile navigation */
+    
     .header2 nav {
         position: fixed;
         top: var(--header-height);
@@ -702,7 +702,7 @@ h2 {
         font-size: 1.2rem;
     }
 
-    /* Sections */
+    
     .hero,
     .about-container,
     .skills-section,
@@ -728,7 +728,7 @@ h2 {
         margin: 10px auto;
     }
 
-    /* About */
+    
     .about-content {
         flex-direction: column;
         align-items: center;
@@ -753,7 +753,7 @@ h2 {
         font-size: 1.1rem;
     }
 
-    /* Skills */
+    
     .skills-section > div > h1 {
         font-size: 2.5rem;
     }
@@ -764,7 +764,7 @@ h2 {
         padding: 20px;
     }
 
-    /* Projects */
+    
     .projects-content h1 {
         font-size: 2.5rem;
     }
@@ -774,7 +774,7 @@ h2 {
         gap: 25px;
     }
 
-    /* Contact */
+    
     .contact-content {
         padding: 40px 25px;
     }
@@ -793,7 +793,7 @@ h2 {
     }
 }
 
-/* Small Mobile */
+
 @media (max-width: 480px) {
     html {
         font-size: 85%;

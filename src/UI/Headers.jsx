@@ -29,7 +29,7 @@ export const Headers = () => {
                 </Link>
             </div>
 
-            {/* Hamburger Menu Toggle */}
+            
             <div 
                 className={`menu-toggle ${isMenuOpen ? 'active' : ''}`} 
                 onClick={toggleMenu}
