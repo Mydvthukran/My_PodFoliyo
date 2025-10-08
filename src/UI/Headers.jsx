@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 export const Headers = () =>{
     return (
-     <div className="header"> <div className="logo"><Link to = "home"smooth= {true} duration={500}offset={-80} spy={true} activeClass="active"><h1>PodFoliyo</h1></Link> </div>  
+     <div className="header"> <div className="logo"><Link to = "home"smooth= {true} duration={500}offset={-80} spy={true} activeClass="active"><h1>Portfolio</h1></Link> </div>  
   <div className="header2">
    <nav> <ul>
    <li><Link to = "home" smooth= {true} duration={500} offset={-80} spy={true} activeClass="active" >Home</Link> </li>
