@@ -24,7 +24,7 @@ export const Home = () => {
 
             <div className="hero-content">
                 <div className="hero-badge">
-                    <span>🚀 Web Developer</span>
+                    <span>Just a Student </span>
                 </div>
 
                 <h1 className={isLoaded ? 'animate' : ''}>
