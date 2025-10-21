@@ -11,7 +11,7 @@ export const Projects = () => {
             title: "ClassTrack - Smart Schedule Analyzer",
             status: "Completed",
             description: "An intelligent schedule analyzer built with Claude AI that detects study blocks, highlights schedule conflicts, and calculates workload scores. Features a clean, intuitive UI with cross-device responsiveness and real-time schedule analysis to help students manage their academic workload effectively.",
-            technologies: ["React", "Vite", "Tailwind CSS", "JavaScript", "Claude AI"],
+            technologies: ["React", "Vite", "Tailwind CSS", "JavaScript"],
             link: "https://class-track-seven.vercel.app/",
             delay: '0s'
         },
