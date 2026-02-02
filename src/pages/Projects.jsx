@@ -11,7 +11,7 @@ export const Projects = () => {
             title: "ClassTrack - Smart Schedule Analyzer",
             status: "Completed",
             description: "An intelligent schedule analyzer built with Claude AI that detects study blocks, highlights schedule conflicts, and calculates workload scores. Features a clean, intuitive UI with cross-device responsiveness and real-time schedule analysis to help students manage their academic workload effectively.",
-            technologies: ["React", "Vite", "Tailwind CSS", "JavaScript"],
+            technologies: ["React", "Vite", "CSS", "JavaScript"],
             link: "https://class-track-seven.vercel.app/",
             delay: '0s'
         },
@@ -24,10 +24,11 @@ export const Projects = () => {
             delay: '0.2s'
         },
         {
-            title: "KMRL AI Documentation & Chatbot (SIH 2024)",
-            status: "In Progress",
-            description: "Creating an intelligent documentation system and AI-powered chatbot for Kochi Metro Rail Limited (KMRL). The goal is to provide instant, conversational support for complex operational documentation, leveraging NLP and Generative AI.",
-            technologies: ["Generative AI", "NLP", "React", "Python/Flask", "SIH"],
+            title: "Weather Forecasting Dashboard",
+            status: "completed",
+            description: "A responsive weather forecasting dashboard built with React and Tailwind CSS. Features real-time weather data visualization, interactive maps, and a clean UI that adapts to all screen sizes.",
+            technologies: ["React", " CSS", "JavaScript", "Weather API"],
+            link: "https://weather-app-xi-two-78.vercel.app/",
             delay: '0.4s'
         },
     ];
