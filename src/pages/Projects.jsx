@@ -26,10 +26,18 @@ export const Projects = () => {
         {
             title: "Weather Forecasting Dashboard",
             status: "completed",
-            description: "A responsive weather forecasting dashboard built with React and Tailwind CSS. Features real-time weather data visualization, interactive maps, and a clean UI that adapts to all screen sizes.",
+            description: "A responsive weather forecasting dashboard built with React and CSS. Features real-time weather data visualization, interactive maps, and a clean UI that adapts to all screen sizes.",
             technologies: ["React", " CSS", "JavaScript", "Weather API"],
             link: "https://weather-app-xi-two-78.vercel.app/",
             delay: '0.4s'
+        },
+         {
+            title: "Byte Forge club website",
+            status: "completed",
+            description: "A responsive club built with React and CSS. Features real-time weather data visualization, interactive maps, and a clean UI that adapts to all screen sizes.",
+            technologies: ["React", " CSS", "JavaScript", "three js"],
+            link: " https://byteforgefinal.vercel.app/",
+            delay: '0.6s'
         },
     ];
 
