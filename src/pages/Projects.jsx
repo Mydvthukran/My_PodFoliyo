@@ -34,7 +34,7 @@ export const Projects = () => {
          {
             title: "Byte Forge club website",
             status: "completed",
-            description: "A responsive club built with React and CSS. Features real-time weather data visualization, interactive maps, and a clean UI that adapts to all screen sizes.",
+            description: "A responsive club built with React and CSS. Feature the 3d element that react with crusor.",
             technologies: ["React", " CSS", "JavaScript", "three js"],
             link: " https://byteforgefinal.vercel.app/",
             delay: '0.6s'
