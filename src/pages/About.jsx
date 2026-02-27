@@ -30,8 +30,8 @@ export const About = () => {
     const handleDownloadResume = () => {
        
         const link = document.createElement('a');
-        link.href = '/Manish_Yadav_Resume.pdf'; 
-        link.download = 'Manish_Yadav_Resume.pdf';
+        link.href = '/Resume.pdf'; 
+        link.download = 'Resume.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
